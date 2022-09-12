@@ -195,6 +195,10 @@
         margin: 0px;
         padding: 20px;
     }
+    .faq__girl__image {
+        width: 100%;
+        padding: 20px;
+    }
     .faq__questions__container {
         padding: 0px;
         margin: 0px;
@@ -209,5 +213,5 @@
     
     
    
-    
+
 }
