@@ -1,12 +1,18 @@
 
-@media (max-width: 58em) {
+@media (max-width: 450px) {
     h3 {
         font-size: 26px;
     }
     html {
         margin: 0px;
         padding: 0px;
-        width: 100%;
+    }
+    .main__container {
+        margin: 0px;
+        padding: 0px;
+    }
+    .nav {
+        align-items: center;
     }
     .nav__links {
         list-style-type: none;
@@ -25,7 +31,6 @@
         box-sizing: border-box;
     }
     .header__title {
-        padding-top: 0px;
         font-size: 26px;
         line-height: 55.02px;
         font-weight: 600;
@@ -42,18 +47,23 @@
         margin-left: 20px;
         align-items: center;
         height: 30vh;
-        width: 100vw;
+        width: 100%;
     }
     .product__picture {
         padding: 0;
-        width: 50vw;
+        width: 50%;
         margin-top: 20px;
         margin-right: 60px;
     }
     .section__subtitle {
-        padding-left: 10px; 
-        width: 95vw;
-        padding-top: 240px;
+        display: none;
+    }
+    .section__subtitle__hidden{
+        display: inline-block;
+        padding-left: 40px;
+        line-height: 22px;
+        font-size: 14px;
+        width: 100%;
     }
     .info__container {
         display: flex;
@@ -61,8 +71,8 @@
         justify-content: space-between;
         align-items: center;
         margin-left: 7px;
-        margin-top: 320px;
-        width: 90vw;
+        margin-top: 340px;
+        width: 90%;
         align-items: center;
         height: 15vh;
         background-color: white;
@@ -76,19 +86,26 @@
         display: none;
     }
     .operation__seller__container {
+        width: 100%;
         display: flex;
         flex-direction: column;
-        margin-top: 70px;
-        padding-left: 5px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .operations {
+        width: 90%;
     }
     .seller__container {
-        width: 90vw;
+        margin-top: 20px;
+        width: 90%;
         border: 1px solid rgba(174, 204, 255, 0.5);
         display: flex;
         align-items: center;
-        justify-content: flex-start;
         border-radius:  110px;
         background-color: rgba(234, 242, 255, 0.1);
+    }
+    .seller__description__container {
+        width: 100%;
     }
     .section__header__subcontainer {
         width: 50%;
@@ -110,6 +127,8 @@
     }
     .section__header__title__hidden {
         display: inline-block;
+        text-align: center;
+        width: %;
         font-size: 12px;
         font-weight: 800;
         line-height: 18px;
@@ -128,30 +147,67 @@
         font-size: 30px;
     }
     .card__container {
-        padding: 0px;
-        margin: 0px;
+        margin-bottom: 63px;
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
     }
     .card {
-        padding: 0px;
+        margin-top: 73px;
     }
     .second__section__content {
+        height: 100%;
+        padding-left: 16px;
+        margin-right: 16px;
         align-items: center;
     }
     .section__title {
-        width: 90%;
+        text-align: center;
+        width: 100%;
     }
     .section__content__title {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
         font-size: 30px;
+        line-height: 41px;
     }
     .card__title__offer {
         font-size: 30px;
+        line-height: 41px;
     }
-    .section__review__container {
-        justify-content: space-around;
+    .reviews__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
     }
+    .user__card {
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .faq__section__content {
+        height: 100%;
+    }
+    .faq__container {
+        margin: 0px;
+        padding: 20px;
+    }
+    .faq__questions__container {
+        padding: 0px;
+        margin: 0px;
+        flex-direction: column;
+    }
+    .qa__container {
+        width: 100%;
+    }
+    .see__all__header {
+        text-align: center;
+    }
+    
+    
    
     
 }
