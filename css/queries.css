@@ -212,5 +212,20 @@
         padding: 0px;
         margin: 0px;
     }
+    .user__card__container {
+        position: relative;
+        margin-bottom: 63px;
+        padding-left: 30px;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .user__card{ 
+        display: none;
+    }
+    .dots__container {
+        display: block;
+        padding-left: 50px;
+    }
     
 }
