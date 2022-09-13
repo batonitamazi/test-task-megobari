@@ -4,7 +4,6 @@ const nav = document.querySelector('.nav');
 
 
 
-// Sticky navigation: Intersection Observer API
 
 const header = document.querySelector('.header');
 const navHeight = nav.getBoundingClientRect().height;
@@ -24,3 +23,25 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 });
 
 headerObserver.observe(header);
+
+// const arrowButton = document.querySelector(".dropdown__btn");
+// arrowButton.addEventListener('click', () => {
+//   document.querySelector(".hidden__content").classList.toggle("show");
+
+// })
+// dropdown menu
+const content = document.querySelectorAll(".hidden__content");
+const arrow = document.querySelectorAll(".dropdown__btn");
+
+
+for(let i=0; i<arrow.length; i++) {
+  arrow[i].addEventListener('click', function() {
+    content[i].classList.toggle("show");
+    this.classList.toggle("rotate");
+  })
+  
+}
+
+
+
+

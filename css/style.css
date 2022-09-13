@@ -571,6 +571,11 @@ html {
   width: 100%;
   margin-left: 84px;
 }
+.dropdown__container {
+  overflow: hidden;
+  position: relative;
+
+}
 .qa__container {
   width: 652px;
   height: 59px;
@@ -589,4 +594,22 @@ html {
   font-weight: 700;
   line-height: 20px;
   color: #FFFFFF;
+}
+.dropdown__btn {
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+.hidden__content {
+  position: relative
+  border: 1px solid gray;
+  height: 60px;
+  display: none;
+  color: #AECCFF;
+  padding-left: 20px;
+}
+.show {
+  display: block;
+}
+.rotate {
+  transform: rotate(0deg);
 }
